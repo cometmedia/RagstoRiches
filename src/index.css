@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url("./assets/ppneuemontreal-book.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/f0dc1be89797d195a639b7d5663de0d5.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url("./assets/ppneuemontreal-book.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/9cc04a4313f8c8710609340f1a4e1564.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url("./assets/ppneuemontreal-book.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/1cc1ed287bf0dfc61cb407b4618e00d8.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal Medium";
+  src: url("./assets/ppneuemontreal-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "PP Neue Montreal", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Color Palette - mapped to Rags to Riches Builders luxury construction branding */
+  --color-brand-dark: #1C1B19;          /* near-black charcoal */
+  --color-brand-offwhite: #FFFFF7;      /* warm off-white background */
+  --color-brand-cream: #F3EEE0;         /* warm cream section background */
+  --color-brand-gold: #FFDD00;          /* exact secondary yellow */
+  --color-brand-gold-hover: #FFDD00;    /* exact secondary yellow (no hover shades) */
+  --color-brand-grey: #53565A;          /* structural grey for body/secondary UI */
+  --color-brand-line: #DBDBC8;          /* hairline divider color at full opacity */
+}
+
+/* Custom styles for premium layout */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-brand-offwhite);
+  color: var(--color-brand-dark);
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for gallery swiper but maintain scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

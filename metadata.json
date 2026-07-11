@@ -1,0 +1,6 @@
+{
+  "name": "Rags to Riches Builders",
+  "description": "Premium, modern custom construction company specializing in Pre-Construction, Grey Structure, and Full Finishing Services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
