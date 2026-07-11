@@ -93,7 +93,7 @@ export default function ContactCTA() {
               {/* Premium Top Indicator */}
               <motion.div variants={itemVariants} className="flex items-center gap-3" style={isMobile ? { marginTop: "-46px" } : undefined}>
                 <img 
-                  src="/src/assets/images/logo.svg" 
+                  src="/images/logo.svg" 
                   alt="Rags to Riches Logo" 
                   className="h-5 w-5 object-contain"
                   referrerPolicy="no-referrer"

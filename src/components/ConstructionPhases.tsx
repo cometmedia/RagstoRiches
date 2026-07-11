@@ -18,7 +18,7 @@ const SERVICES: ServiceItem[] = [
     category: "Planning & Estimation",
     name: "Pre Construction",
     description: "The complete planning phase: rigorous site surveys, precise cost estimations, value engineering, and seamless municipal approvals to lock down your budget before groundbreaking.",
-    image: "/src/assets/images/pre_construction_planning_1783453890515.jpg"
+    image: "/images/pre_construction_planning_1783453890515.jpg"
   },
   {
     id: "grey-structure",
@@ -26,7 +26,7 @@ const SERVICES: ServiceItem[] = [
     category: "Structural Core",
     name: "Grey Structure",
     description: "The raw physical skeleton. Heavy-duty foundation casting, Grade-60 reinforced steel grids, premium clay masonry, and robust seismic-resistant framing built to endure generations.",
-    image: "/src/assets/images/grey_structure_phase_1783453872098.jpg"
+    image: "/images/grey_structure_phase_1783453872098.jpg"
   },
   {
     id: "finishing",
@@ -34,7 +34,7 @@ const SERVICES: ServiceItem[] = [
     category: "Artisanal Interiors",
     name: "Finishing",
     description: "Impeccable turnkey refinement: custom solid-timber joinery, pristine Italian marble layouts, premium electrical and lighting plans, and flawless interior wall treatments.",
-    image: "/src/assets/images/luxury_finishing_details_1783453909295.jpg"
+    image: "/images/luxury_finishing_details_1783453909295.jpg"
   },
   {
     id: "turnkey-management",
@@ -42,7 +42,7 @@ const SERVICES: ServiceItem[] = [
     category: "End-to-End Control",
     name: "Turnkey Project Management",
     description: "End-to-end client security. We manage site logistics, rigorous material testing, scheduling, and post-build warranties while you monitor progress via clean weekly logs.",
-    image: "/src/assets/images/completed_modern_mansion_1783453929340.jpg"
+    image: "/images/completed_modern_mansion_1783453929340.jpg"
   }
 ];
 

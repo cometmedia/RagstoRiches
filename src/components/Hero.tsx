@@ -8,13 +8,13 @@ interface HeroProps {
 }
 
 const HERO_IMAGES = [
-  "/src/assets/images/lavish_light_exterior_1783714695972.jpg",
-  "/src/assets/images/lavish_grand_stairs_1783714716601.jpg",
-  "/src/assets/images/lavish_living_interior_1783714740123.jpg",
-  "/src/assets/images/hero_luxury_home_1783453853144.jpg",
-  "/src/assets/images/completed_modern_mansion_1783453929340.jpg",
-  "/src/assets/images/southern_colonial_living_room_1783540561426.jpg",
-  "/src/assets/images/luxury_finishing_details_1783453909295.jpg"
+  "/images/lavish_light_exterior_1783714695972.jpg",
+  "/images/lavish_grand_stairs_1783714716601.jpg",
+  "/images/lavish_living_interior_1783714740123.jpg",
+  "/images/hero_luxury_home_1783453853144.jpg",
+  "/images/completed_modern_mansion_1783453929340.jpg",
+  "/images/southern_colonial_living_room_1783540561426.jpg",
+  "/images/luxury_finishing_details_1783453909295.jpg"
 ];
 
 export default function Hero({ onOpenVideoModal }: HeroProps) {
@@ -157,7 +157,7 @@ export default function Hero({ onOpenVideoModal }: HeroProps) {
               <div className="py-2.5 pl-3.5 pr-3.5 flex items-center justify-center">
                 <div className="w-[85px] h-[86px] overflow-hidden rounded border border-white/15 flex-shrink-0 bg-brand-dark">
                   <img
-                    src="/src/assets/images/completed_modern_mansion_1783453929340.jpg"
+                    src="/images/completed_modern_mansion_1783453929340.jpg"
                     alt="Luxury custom residence"
                     className="w-full h-full object-cover opacity-90 transition-transform duration-500 hover:scale-105"
                     referrerPolicy="no-referrer"
@@ -202,7 +202,7 @@ export default function Hero({ onOpenVideoModal }: HeroProps) {
             <div className="border-t border-white/10 pt-4 flex items-center gap-3">
               <div className="w-[80px] h-[56px] overflow-hidden rounded border border-white/10 flex-shrink-0 bg-brand-dark">
                 <img
-                  src="/src/assets/images/completed_modern_mansion_1783453929340.jpg"
+                  src="/images/completed_modern_mansion_1783453929340.jpg"
                   alt="Luxury custom residence"
                   className="w-full h-full object-cover opacity-90"
                   referrerPolicy="no-referrer"

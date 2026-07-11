@@ -195,7 +195,7 @@ export default function WhyEppright({ onScrollToSection }: WhyEpprightProps) {
               }}
             >
               <img
-                src="/src/assets/images/completed_modern_mansion_1783453929340.jpg"
+                src="/images/completed_modern_mansion_1783453929340.jpg"
                 alt="Custom Rags to Riches home construction patio"
                 className="w-full h-full object-cover rounded-[4px]"
                 referrerPolicy="no-referrer"
@@ -239,7 +239,7 @@ export default function WhyEppright({ onScrollToSection }: WhyEpprightProps) {
               }}
             >
               <img
-                src="/src/assets/images/luxury_finishing_details_1783453909295.jpg"
+                src="/images/luxury_finishing_details_1783453909295.jpg"
                 alt="Rags to Riches premium details"
                 className="w-full h-full object-cover rounded-[2px]"
                 referrerPolicy="no-referrer"

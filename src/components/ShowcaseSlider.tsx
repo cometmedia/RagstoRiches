@@ -17,24 +17,24 @@ const SHOWCASE_SLIDES: ShowcaseSlide[] = [
     category: "LATEST PROJECT",
     title: "Brass Canopy Villa",
     exploreUrl: "#contact",
-    mainImage: "/src/assets/images/brass_canopy_villa_1783715577912.jpg",
-    insideImage: "/src/assets/images/southern_colonial_living_room_1783540561426.jpg"
+    mainImage: "/images/brass_canopy_villa_1783715577912.jpg",
+    insideImage: "/images/southern_colonial_living_room_1783540561426.jpg"
   },
   {
     id: "slide-2",
     category: "FEATURED ESTATE",
     title: "Modernist Cuboid Pavilion",
     exploreUrl: "#contact",
-    mainImage: "/src/assets/images/completed_modern_mansion_1783453929340.jpg",
-    insideImage: "/src/assets/images/french_country_kitchen_1783540582090.jpg"
+    mainImage: "/images/completed_modern_mansion_1783453929340.jpg",
+    insideImage: "/images/french_country_kitchen_1783540582090.jpg"
   },
   {
     id: "slide-3",
     category: "CLASSIC RESIDENCE",
     title: "The Atrium Estate",
     exploreUrl: "#contact",
-    mainImage: "/src/assets/images/southern_colonial_custom_exterior_1783715596682.jpg",
-    insideImage: "/src/assets/images/luxury_finishing_details_1783453909295.jpg"
+    mainImage: "/images/southern_colonial_custom_exterior_1783715596682.jpg",
+    insideImage: "/images/luxury_finishing_details_1783453909295.jpg"
   }
 ];
 

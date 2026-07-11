@@ -9,37 +9,37 @@ interface ExploreHouseProps {
 const HOUSE_IMAGES = [
   {
     title: "The Exterior",
-    src: "/src/assets/images/lavish_light_exterior_1783714695972.jpg",
+    src: "/images/lavish_light_exterior_1783714695972.jpg",
     description: "Striking clean lines and expansive glass facades."
   },
   {
     title: "Grand Interior",
-    src: "/src/assets/images/lavish_living_interior_1783714740123.jpg",
+    src: "/images/lavish_living_interior_1783714740123.jpg",
     description: "Double-height ceilings and bespoke furnishings."
   },
   {
     title: "Gourmet Kitchen",
-    src: "/src/assets/images/french_country_kitchen_1783540582090.jpg",
+    src: "/images/french_country_kitchen_1783540582090.jpg",
     description: "Culinary perfection with premium finishes."
   },
   {
     title: "Luxury Washroom",
-    src: "/src/assets/images/lavish_washroom_1783717341151.jpg",
+    src: "/images/lavish_washroom_1783717341151.jpg",
     description: "A spa-like retreat wrapped in elegant marble."
   },
   {
     title: "Opulent Stairs",
-    src: "/src/assets/images/lavish_grand_stairs_1783714716601.jpg",
+    src: "/images/lavish_grand_stairs_1783714716601.jpg",
     description: "A stunning architectural centerpiece."
   },
   {
     title: "Scenic Balcony",
-    src: "/src/assets/images/lavish_balcony_1783717361201.jpg",
+    src: "/images/lavish_balcony_1783717361201.jpg",
     description: "Expansive outdoor living with breathtaking views."
   },
   {
     title: "Exotic Garage",
-    src: "/src/assets/images/lavish_garage_1783717379014.jpg",
+    src: "/images/lavish_garage_1783717379014.jpg",
     description: "Polished floors and perfect lighting for automotive art."
   }
 ];

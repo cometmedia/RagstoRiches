@@ -53,7 +53,7 @@ export const SERVICES: ServiceDetail[] = [
       "Strict cost estimating and budgeting",
       "Value engineering to optimize investment"
     ],
-    image: "/src/assets/images/pre_construction_planning_1783453890515.jpg"
+    image: "/images/pre_construction_planning_1783453890515.jpg"
   },
   {
     id: "grey-structure",
@@ -68,7 +68,7 @@ export const SERVICES: ServiceDetail[] = [
       "Sewerage lines and under-floor sanitary prep",
       "Termite proofing and soil compaction"
     ],
-    image: "/src/assets/images/grey_structure_phase_1783453872098.jpg"
+    image: "/images/grey_structure_phase_1783453872098.jpg"
   },
   {
     id: "full-construction",
@@ -83,7 +83,7 @@ export const SERVICES: ServiceDetail[] = [
       "High-grade multi-coat exterior & interior painting",
       "Complete final test and turnkey hand-over"
     ],
-    image: "/src/assets/images/luxury_finishing_details_1783453909295.jpg"
+    image: "/images/luxury_finishing_details_1783453909295.jpg"
   }
 ];
 
@@ -92,7 +92,7 @@ export const PROJECTS: Project[] = [
     id: "proj-1",
     title: "The Pavilion House",
     category: "Full Turnkey Construction",
-    image: "/src/assets/images/completed_modern_mansion_1783453929340.jpg",
+    image: "/images/completed_modern_mansion_1783453929340.jpg",
     year: "2025",
     location: "DHA Phase 6, Lahore",
     size: "6,400 SQ FT",
@@ -102,7 +102,7 @@ export const PROJECTS: Project[] = [
     id: "proj-2",
     title: "The Timberline Estate",
     category: "Pre-Construction & Build",
-    image: "/src/assets/images/hero_luxury_home_1783453853144.jpg",
+    image: "/images/hero_luxury_home_1783453853144.jpg",
     year: "2025",
     location: "Sector E-7, Islamabad",
     size: "7,200 SQ FT",
@@ -112,7 +112,7 @@ export const PROJECTS: Project[] = [
     id: "proj-3",
     title: "The Crestwood structure",
     category: "Grey Structure Phase",
-    image: "/src/assets/images/grey_structure_phase_1783453872098.jpg",
+    image: "/images/grey_structure_phase_1783453872098.jpg",
     year: "2026",
     location: "Clifton Block 4, Karachi",
     size: "5,800 SQ FT",

@@ -70,7 +70,7 @@ export default function FeaturedBuild({ onScrollToSection, onExplore }: Featured
                   onClick={() => onExplore && onExplore()}
                 >
                   <img
-                    src="/src/assets/images/southern_colonial_living_room_1783540561426.jpg"
+                    src="/images/southern_colonial_living_room_1783540561426.jpg"
                     alt="Southern Colonial Estate Living Room"
                     className="w-full h-full object-cover hover:scale-102 transition-transform duration-700 ease-out"
                     referrerPolicy="no-referrer"
@@ -147,7 +147,7 @@ export default function FeaturedBuild({ onScrollToSection, onExplore }: Featured
                   onClick={() => onExplore && onExplore()}
                 >
                   <img
-                    src="/src/assets/images/french_country_kitchen_1783540582090.jpg"
+                    src="/images/french_country_kitchen_1783540582090.jpg"
                     alt="French Country Modern Kitchen"
                     className="w-full h-full object-cover hover:scale-102 transition-transform duration-700 ease-out"
                     referrerPolicy="no-referrer"

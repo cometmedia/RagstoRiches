@@ -5,11 +5,11 @@ import { TESTIMONIALS } from "../types";
 
 // Explicitly mapped project images
 const TESTIMONIAL_IMAGES: Record<string, string> = {
-  "test-1": "/src/assets/images/completed_modern_mansion_1783453929340.jpg",
-  "test-2": "/src/assets/images/grey_structure_phase_1783453872098.jpg",
-  "test-3": "/src/assets/images/luxury_finishing_details_1783453909295.jpg",
-  "test-4": "/src/assets/images/southern_colonial_living_room_1783540561426.jpg",
-  "test-5": "/src/assets/images/french_country_kitchen_1783540582090.jpg",
+  "test-1": "/images/completed_modern_mansion_1783453929340.jpg",
+  "test-2": "/images/grey_structure_phase_1783453872098.jpg",
+  "test-3": "/images/luxury_finishing_details_1783453909295.jpg",
+  "test-4": "/images/southern_colonial_living_room_1783540561426.jpg",
+  "test-5": "/images/french_country_kitchen_1783540582090.jpg",
 };
 
 // Explicitly mapped roles & companies for the signature area matching the image's structure
@@ -117,7 +117,7 @@ export default function Testimonials() {
           <div className="space-y-3">
             <div className="flex items-center gap-3">
               <img 
-                src="/src/assets/images/logo.svg" 
+                src="/images/logo.svg" 
                 alt="Rags to Riches Logo" 
                 className="h-5 w-5 object-contain"
                 referrerPolicy="no-referrer"
@@ -187,7 +187,7 @@ export default function Testimonials() {
                 brand: "Estate",
                 location: "Pakistan",
               };
-              const imgUrl = TESTIMONIAL_IMAGES[testimonial.id] || "/src/assets/images/completed_modern_mansion_1783453929340.jpg";
+              const imgUrl = TESTIMONIAL_IMAGES[testimonial.id] || "/images/completed_modern_mansion_1783453929340.jpg";
  
               return (
                 <div
@@ -306,7 +306,7 @@ export default function Testimonials() {
           </span>
           <div className="flex items-center gap-2" style={isMobile ? { marginTop: "-9px", marginBottom: "-34px" } : undefined}>
             <img 
-              src="/src/assets/images/logo.svg" 
+              src="/images/logo.svg" 
               alt="Rags to Riches Logo" 
               className="h-4.5 w-4.5 object-contain"
               referrerPolicy="no-referrer"

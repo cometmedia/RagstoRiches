@@ -83,7 +83,7 @@ export default function WhyUs({ onScrollToSection }: WhyUsProps) {
               className="relative w-[75%] aspect-[4/3] rounded-sm overflow-hidden shadow-xl border border-brand-line/40 self-start mr-auto z-10"
             >
               <img
-                src="/src/assets/images/completed_modern_mansion_1783453929340.jpg"
+                src="/images/completed_modern_mansion_1783453929340.jpg"
                 alt="Completed modern home exterior"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -100,7 +100,7 @@ export default function WhyUs({ onScrollToSection }: WhyUsProps) {
               className="absolute w-[45%] aspect-[1/1] rounded-sm overflow-hidden shadow-2xl border-2 border-brand-offwhite right-4 bottom-4 z-20"
             >
               <img
-                src="/src/assets/images/grey_structure_phase_1783453872098.jpg"
+                src="/images/grey_structure_phase_1783453872098.jpg"
                 alt="Raw grey structure steel details"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
